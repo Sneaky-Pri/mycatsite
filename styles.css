@@ -14,11 +14,16 @@
    box-sizing: border-box;
 }
 
+header {
+   margin-top: 40px;
+}
+
 
 .main-container {
    background-color: var(--main-bg);
-   max-width: 1920px;
+   max-width: 1820px;
    margin: 0 auto;
+   border-radius: 5px;
 }
 
 
@@ -31,9 +36,9 @@
 
 .logo img {
    position: absolute;
-   top: 0;
-   left: 0;
-   width: 150px;
+   top: -20px;
+   left: -40px;
+   width: 200px;
    height: auto;
    z-index: 1;
 }
@@ -77,6 +82,7 @@
 
 .menu {
    background-color: var(--menu-color);
+   border-radius: 5px;
 }
 
 .menu nav ul {
@@ -129,7 +135,7 @@
    margin-left: 10px;
    border-radius: 8px;
    background-color:
-      #388f3c;
+      #46804f;
 }
 
 .cuddle img {
@@ -174,9 +180,9 @@
 
 .kitty {
    position: absolute;
-   bottom: -50px;
-   right: 0;
-   width: 300px;
+   bottom: -60px;
+   right: -50px;
+   width: 350px;
    height: auto;
 }
 
